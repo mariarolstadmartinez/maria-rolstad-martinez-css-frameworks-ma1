@@ -1,0 +1,30 @@
+.container .row.row-cols-1.row-cols-sm-2.row-cols-md-4 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 20%;
+}
+  
+
+.container .row.row-cols-1.row-cols-sm-2.row-cols-md-4 .col {
+    background-color: $colour-beige;
+    border-radius: 15px;
+    box-shadow: 5px 10px $colour-shadow;
+    width: 264px;
+    height: 264px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 264px;
+            flex: 0 0 264px;
+    margin: 10px;
+}
+
+.container .box-block-border {
+    background-color: $colour-white!important;
+    border: 3px solid $colour-pink;
+}
+
+.container .box-block-solid {
+    background-color:$colour-pink!important;
+    border: 3px solid $colour-white;
+
+}

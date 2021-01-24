@@ -1,0 +1,29 @@
+html,
+body {
+    height: 100%;
+}
+
+
+body {
+    background-color: var(--background-colour);
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-between;
+    background-color: var(--nav-colour);
+    margin-top: 2em;
+    padding-top: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 12px;
+    color: #8D8D8D;
+
+}
+
+.wrapper {
+    flex: 1 0 auto;
+}

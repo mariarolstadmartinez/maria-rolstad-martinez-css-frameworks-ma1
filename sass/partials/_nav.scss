@@ -1,0 +1,30 @@
+.navbar-brand {
+    font-family: $font-primary;
+    font-size: 36px;
+}
+
+.navbar {
+    background-color: $colour-beige!important;
+    color: $colour-grey;
+    text-transform: uppercase;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: $colour-grey;
+    font-size: 18px;
+    font-family: $font-nav;
+
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+    color: $colour-pink;
+
+}
+
+.navbar-collapse {
+    z-index: 1;
+}
+
+
+
